@@ -2,4 +2,100 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+h3 h5{
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
+.cc-nav{
+    margin-top:20px;
+}
+.bg-indicator li{
+    background-color: gray;
+}
+.bg-indicator .active{
+    background-color: darkorange;
+}
+.cc-banner {
+    background-image: url(images/bg/bg-dotted.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 10%;
+}
+
+.carousel-item {
+    background-image: url(images/bg/bg-best.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    padding-bottom: 50px;
+}
+.cc-carousel{
+    padding-top: 20px 10px;
+}
+button a:hover{
+    background-color: black;
+}
+.cc-productcard{
+    margin-top: 100px;
+}
+.cc-seeall{
+    text-decoration: none;
+    color:darkorange;
+    font-weight: bold;
+}
+.cc-seeall:hover{
+    text-decoration: none;
+    color:darkorange;
+    font-weight: bold;
+}
+.cc-productrow div{
+    border:none;
+}
+.cc-productrow{
+    padding:40px 20px;
+}
+.cc-productitems{
+    margin-bottom: 100px;
+}
+.card-footer .buy-button{
+    background-color: black;
+    padding:10px 20px;
+}
+.card-footer{
+    background-color: white;
+    border-top:none;
+}
+.card {
+    border: none;
+    box-shadow: 0 5px 20px lightcyan;
+    border-radius: 10px;
+}
+.cc-ctgcontent::after{
+        position: absolute;
+        content: " ";
+        height: 7px;
+        width: 70px;
+        background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0 0 no-repeat padding-box;
+        border-radius: 10px;
+}
+#subscribe h6{
+    color:gray;
+}
+.subscribe-button{
+    background-image:linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius:8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    margin-top:100px;
+    padding-bottom: 10px;
 }
